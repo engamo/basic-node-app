@@ -1,0 +1,25 @@
+{
+  "routes": [
+    {
+      "src": "/",
+      "dest": "/index.html"
+    },
+    {
+      "src": "/about",
+      "dest": "/pages/about.html"
+    },
+    {
+      "src": "/contact-me",
+      "dest": "/pages/contact-me.html"
+    },
+    {
+      "src": "/contact",
+      "status": 301,
+      "headers": { "Location": "/pages/contact-me.html" }
+    },
+    {
+      "src": "/404",
+      "dest": "/pages/404.html"
+    }
+  ]
+}
